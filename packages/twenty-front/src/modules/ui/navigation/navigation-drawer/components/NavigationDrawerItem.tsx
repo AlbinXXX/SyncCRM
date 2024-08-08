@@ -57,7 +57,7 @@ const StyledItem = styled('div', {
   }};
   cursor: ${(props) => (props.soon ? 'default' : 'pointer')};
   display: flex;
-  font-family: 'Inter';
+  font-family: 'Roboto';
   font-size: ${({ theme }) => theme.font.size.md};
   gap: ${({ theme }) => theme.spacing(2)};
   margin-left: ${({ level, theme }) => theme.spacing((level - 1) * 4)};
